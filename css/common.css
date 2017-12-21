@@ -1,0 +1,114 @@
+/*公共样式*/
+
+html,body,div,ul,ol,dl,li,h1,h2,h3,h4,h5,h6,a{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #000;
+}
+a {
+	color: #000;
+	display: block;
+}
+ul,dl,ol{
+	list-style: none;
+}
+
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	zoom: 1;
+}
+.layer {
+	width: 100%;
+}
+.header {
+	width: 100%;
+	height: 120px;
+	background-color: #fff;
+	position: relative;
+	z-index: 999;
+}
+.nav{
+	width: 1000px;
+	height: 120px;
+	margin: 0 auto;
+	line-height: 120px;
+	position: relative;
+
+}
+.nav ul {
+	float: right;
+}
+.nav li {
+	height: 100%;
+	float: left;
+	padding: 0 15px;
+	border-top: 3px solid #fff;
+	box-sizing: border-box;
+}
+
+.nav li:hover {
+	border-top: 3px solid #0066cc;
+	color: #0066cc;
+}
+.nav li.active {
+	border-top: 3px solid #0066cc;
+	color: #0066cc;
+}
+.nav a:hover {
+	color: #0066cc;
+}
+.nav a.active {
+	color: #0066cc;
+}
+.logo {
+	width: 235px;
+	height: 65px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+.footer {
+
+    width: 100%;
+    height: 340px;
+	margin-top: 200px;
+	text-align: center;
+	/*background: #fff url(../imgs/footer.jpg) bottom center no-repeat;*/
+}
+.footer .statement {
+	width: 238px;
+	height: 55px;
+	margin: 0 auto;
+	background: url(../imgs/footer22.png);
+}
+.footer h3 {
+	font-size: 26px;
+	line-height: 80px;
+	font-weight:normal;
+	color: #333333;
+}
+.footer p {
+	color: #ff0000;
+}
+.footer .footer_bottom {
+	margin-top: 30px;
+	width: 100%;
+	height: 102px;
+	background: url(../imgs/footer11.png);
+	/*position: relative;*/
+}
+.footer .footer_bottom span {
+	line-height: 102px;
+	color: white;
+	/*position: absolute;*/
+	/*left:50%;*/
+	/*top:50%;*/
+	/*transform: translate(-50%);*/
+}

@@ -1,0 +1,196 @@
+/*首页的样式*/
+
+.banner {
+	max-width: 2560px;
+    width: 100%;
+    height: 920px;
+    position: relative;
+    top: -140px;
+    /*overflow: hidden;*/
+
+}
+.banner .ban1 {
+    width: 100%;
+    height: 100%;
+	background: url(../imgs/ban1.jpg) top center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    display: block;
+    opacity: 1;
+}
+.banner .ban2 {
+    width: 100%;
+    height: 100%;
+    background: url(../imgs/ban2.jpg) top center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    opacity: 1;
+}
+.banner .ban3 {
+    width: 100%;
+    height: 100%;
+    background: url(../imgs/ban3.jpg) top center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    display: none;
+    opacity: 1;
+}
+
+/*banner图上的文字*/
+
+.banner .desc {
+    z-index: 5;
+    width: 100%;
+    margin-top: 50px;
+    position: absolute;
+    left:0;
+    top:50%;
+    transform: translateY(-140%);
+    text-align: center;
+}
+.banner .desc h1,
+.banner .desc h2,
+.banner .desc h3,
+.banner .desc a {
+    color: #fff;
+    padding: 5px 0;
+}
+.banner .desc h1 {
+    font-size: 50px;
+}
+.banner .desc h2 {
+    font-size: 12px;
+}
+.banner .desc h3 {
+    font-size: 12px;
+}
+.banner .desc a {
+    margin: 10px auto;
+    width: 100px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.banner .desc a:hover {
+    background-color: #148FC8;
+    color: #ffffff;
+    border: 1px solid #148FC8;
+}
+
+
+/*小球部分底部背景样式*/
+
+.banner .marked {
+    z-index: 5;
+    width: 100%;
+    height:380px;
+    position: absolute;
+    left: 0;
+    bottom: -80px;
+    background: url(../imgs/index_bg1.png) bottom center no-repeat;
+}
+.banner .marked ul {
+    width: 900px;
+    margin: 0 auto;
+}
+.banner .marked li {
+    position: relative;
+
+    width: 250px;
+    margin: 0 50px;
+    height: 500px;
+    color: #333;
+    float: left;
+}
+.banner .marked li:nth-of-type(1) {
+    margin-left: 150px;
+}
+
+/*小球样式*/
+
+.banner .marked li .box_l,
+.banner .marked li .box_r {
+    width: 190px;
+    height: 190px;
+    border: 15px solid #eeeeee;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    transform: rotateY(0deg);
+}
+.banner .marked li .box_l {
+    right:20px;
+    top: -70px;
+    background:#fff url(../imgs/tree.png) -350px 0px no-repeat;
+}
+.banner .marked li .box_r {
+    left:20px;
+    top: -70px;
+    background:#fff url(../imgs/tree.png) -704px 0px no-repeat;
+
+}
+
+/*鼠标经过小球时旋转变色 ================旋转尚未完成*/
+
+.banner .marked li .box_l:hover {
+    background:#fff url(../imgs/tree.png) -350px -240px no-repeat;
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+}
+.banner .marked li .box_r:hover {
+    background:#fff url(../imgs/tree.png) -700px -240px no-repeat;
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+}
+
+/*旋转小球下面的文字的样式*/
+
+.banner .marked li h3 {
+    margin-top: 160px;
+    text-align: center;
+    font-size: 18px;
+}
+.banner .marked li h3,
+.banner .marked li p {
+    width: 200px;
+    padding-left: 30px;
+
+}
+.banner .marked li p {
+    margin-top: 20px;
+
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+/* 软件下载部分样式*/
+
+.soft_download {
+    width: 100%;
+}
+.soft_download .download_top {
+    width: 277px;
+    height: 81px;
+    margin: 0 auto;
+}
+.soft_download .download_cate {
+    width: 800px;
+    margin: 60px auto;
+}
+.soft_download .download_cate li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 30px;
+    padding:0px 10px 0px 38px;
+    border: 1px solid #666;
+    border-radius: 15px;
+    font-size: 14px;
+    background: url(../imgs/tree.png) -828px -507px no-repeat;
+}
+.soft_download .download_cate li a:hover {
+    text-decoration: underline;
+    color: #148FC8;
+}
+

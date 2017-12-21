@@ -1,0 +1,78 @@
+*{word-break:break-all;word-wrap:break-word;}
+html,body{width:100%;height:100%}
+html{overflow-y:scroll;}
+body {margin:0;padding:0;min-height:100%;font:14px 微软雅黑,Verdana, Tahoma, Arial;}
+table{font-size:12px;}
+form{margin:0px;padding:0px;}
+ul,li{list-style:none; margin:0px; padding:0px;}
+select{padding:2px;font:12px Verdana, Tahoma, Arial;}
+textarea{font:12px Verdana, Tahoma, Arial;}
+a{text-decoration:none;color:#000000;}
+a:hover{text-decoration:underline;color:#148FC8;}
+a img{border:none;margin:0}
+img{border:none;}
+.clear{clear:both; overflow:hidden; height:0px;}
+#body{max-width:2560px;height:100%;margin:0 auto}
+#top{max-width:2560px;height:140px;background:url("top_bg.png")/*tpa=http://www.ifcisp.com/images/top_bg.png*/ top center no-repeat;position:relative;z-index:1000}
+.hread{width:1006px;height:20px;margin:0 auto;padding:50px 0 15px 0;}
+.hread a{padding:15px;font-size:16px;color:#fff;margin:0 5px;}
+.hread a:hover,.on{border-bottom:2px solid #fff;text-decoration:none;}
+.hread .hspan{padding-left:295px;}
+#bottom{max-width:2560px;height:352px;background:url("bottom.jpg")/*tpa=http://www.ifcisp.com/images/bottom.jpg*/ top center no-repeat;}
+.bottom{width:1000px;height:190px;margin:0 auto;line-height:230%;text-align:center;}
+.bottom span{color:#333;font-size:20px;}
+.bottom font{color:red;}
+.bottom2{color:#fff;text-align:center;}
+.bottom2 a {font:14px 微软雅黑,Verdana, Tahoma, Arial;}
+.bottom_mail{background:url("email.gif")/*tpa=http://www.ifcisp.com/images/email.gif*/ 0 5px  no-repeat;}
+.font12{color:#FFEFBF;font-size:12px}
+.top{max-width:2560px;height:384px;background:url("001.jpg")/*tpa=http://www.ifcisp.com/images/001.jpg*/ top center no-repeat;z-index:-1;position:relative;margin-top:-140px}
+.banner{max-width:2560px;height:920px;position:relative;z-index:999;top:-140px;overflow:hidden;width:100%;}
+.banner div{width:100%;height:100%;position:absolute;}
+.banner .ban1{background:url("001.jpg")/*tpa=http://www.ifcisp.com/images/001.jpg*/ top center no-repeat;}
+.banner .ban2{background:url("002.jpg")/*tpa=http://www.ifcisp.com/images/002.jpg*/ top center no-repeat;}
+.banner .ban3{background:url("003.jpg")/*tpa=http://www.ifcisp.com/images/003.jpg*/ top center no-repeat;}
+.banner .ban{color:#fff;text-align:center;}
+.banner .ban h1{margin:400px 0 15px 0;font-size:56px;font-weight:normal}
+.banner .ban h2{margin:5px 0 5px 0;font-size:16px;font-weight:normal}
+.banner .ban h3{margin:15px 0 100px 0;font-size:22px;font-weight:normal}
+.banner .ban a{color:#fff;border:2px solid #fff;padding:10px 30px;font-size:16px;border-radius:10px}
+.index_1{max-width:2560px;height:488px;background:url("index_bg1.png")/*tpa=http://www.ifcisp.com/images/index_bg1.png*/ top center no-repeat;position:relative;z-index:1000;top:-181px}/*1090 190 30*/
+.index_1 ul{width:1050px;margin:0 auto;position:relative;top:-62px}
+.index_1 li{width:250px;margin:0 50px;height:500px;color:#333;float:left}
+.index_1 li div{width:190px;height:190px;background:url("tree.png")/*tpa=http://www.ifcisp.com/images/tree.png*/ 0 0 no-repeat #fff;border-radius:125px;border:30px solid #eee;transition:transform .5s;}
+.index_1 li .div1{background-position:0px 0px;transform:rotateY(0deg);}
+.index_1 li:hover .div1{background-position:0px -240px;transform:rotateY(180deg);}
+.index_1 li .div2{background-position:-350px 0px;transform:rotateY(0deg);}
+.index_1 li:hover .div2{background-position:-350px -240px;transform:rotateY(180deg);}
+.index_1 li .div3{background-position:-700px 0px;transform:rotateY(0deg);}
+.index_1 li:hover .div3{background-position:-700px -240px;transform:rotateY(180deg);}
+.index_1 li h1{font-size:20px;text-align:center;margin:5px 0 30px 0}
+.index_1 li span{font-size:13px;}
+.index_2{width:985px;height:380px;margin:0 auto;margin-top:-180px;background:url("index_d.gif")/*tpa=http://www.ifcisp.com/images/index_d.gif*/  center 40px no-repeat;line-height:70px;padding-left:20px}
+.index_2 a{background:url("tree.png")/*tpa=http://www.ifcisp.com/images/tree.png*/  -828px -502px no-repeat;border:1px solid #eee;padding:10px 20px 10px 43px;border-radius:20px;margin-right:5px;}
+.index_2 a span{color:red}
+
+.msg_index{width:800px;margin:0 auto}
+.title{width:100%;height:45px;font-size:20px;background:url("tree.png")/*tpa=http://www.ifcisp.com/images/tree.png*/ 0 -493px no-repeat;line-height:40px;color:#2C446A;margin:100px 0 60px 0}
+.input0{margin-right:10px;}
+.input1,.input2{padding:0 15px;margin-bottom:30px;border:1px solid #888;}
+.input1{width:363px;height:36px;}
+.input2{width:228px;height:36px;}
+.input3{width:770px;height:270px;padding:15px;border:1px solid #888;}
+.submit,.reset{width:160px;height:36px;font-size:14px;margin-top:50px;}
+.submit{background:#2D446A;border:1px solid #2D446A;color:#fff;margin-right:40px}
+.reset{background:#eee;border:1px solid #888;color:#333;}
+.msg_index .clear{background:url("tree.png")/*tpa=http://www.ifcisp.com/images/tree.png*/ -360px -538px no-repeat;}
+
+.pro{width:600px;margin:0 auto;color:#333}
+.pro img {margin-bottom:25px;}
+.pro pre{line-height:240%;word-wrap:break-word;white-space:pre-wrap;}
+
+.soft{width:600px;margin:0 auto;color:#333;font-size:16px;}
+.soft .soli{width:100%;height:40px;line-height:40px;background:url("line.gif")/*tpa=http://www.ifcisp.com/images/line.gif*/ left center no-repeat;margin-bottom:40px}
+.soft .soli span{background:#fff;padding-right:15px;}
+.soft .soli font{color:red}
+.soft .soli a{float:right}
+.soft .soli1{height:180px;line-height:180px;}
+#sheng1,#shi1{width:250px;height:30px;border: 1px solid #eee;}

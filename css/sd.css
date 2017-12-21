@@ -1,0 +1,123 @@
+ul,li {
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+a {
+    text-decoration: none;
+}
+.wrap {
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.position_box {
+    border-bottom: 1px solid #e0e0e0;
+    height: 40px;
+    font-size: 15px;
+}
+.position_l {
+    height: 40px;
+    width: 180px;
+    background: url(../imgs/body.gif) no-repeat 0% 76%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 5px;
+}
+.position_r {
+    padding: 10px 0;
+    position: relative;
+    left: 63px;
+}
+.position_r a {
+    color: #333;
+    text-decoration: none;
+    display: inline;
+}
+
+
+.page_content {
+    width: 180px;
+}
+.fl {
+    float: left;
+}
+.page_column {
+    width: 180px;
+}
+.page {
+    width: 880px;
+    margin-top: 10px;
+}
+.fr {
+    float: right;
+}
+.page_pc_soft, .page_mob_soft {
+    width: 860px;
+    height: 480px;
+    margin: 10px 0 0 10px;
+}
+.pc_win, .pc_async {
+    width: 420px;
+    height: 473px;
+    border: 1px solid #C6CDCE;
+}
+.win_image {
+    height: 26px;
+    background: rgb(246,246,246);
+    border-bottom: 1px solid #C6CDCE;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px 124px;
+    font: bold 18px/1.5em "Î¢ÈíÑÅºÚ";
+}
+.xp_down, .win7_down, .win8_down, .xp_as_down, .win7_as_down, .apple_down, .and_down {
+    height: 30px;
+    margin-left: 55px;
+}
+.xp_as_detail {
+    background: url(../imgs/trade.png) no-repeat 6% 3%;
+    background-size: 21px 22px;
+    margin-bottom: 20px;
+}
+.win7_as_detail {
+    background: url(../imgs/trade.png) no-repeat 6% 3%;
+    background-size: 21px 22px;
+    margin-bottom: 20px;
+}
+.apple_down_detail {
+    background: url(../imgs/apple_log.png) no-repeat 6% 4%;
+    background-size: 21px 22px;
+    margin-bottom: 20px;
+    height: 112px;
+}
+.and_down_detail {
+    background: url(../imgs/and_log.png) no-repeat 6% 4%;
+    background-size: 21px 22px;
+    margin-bottom: 20px;
+}
+
+
+.xp_detail, .win7_detail, .win8_detail {
+    background: url(../imgs/trade.png) no-repeat 6% 4%;
+    background-size: 21px 22px;
+    margin-bottom: 20px;
+}
+.xp_detail li, .win7_detail li, .win8_detail li, .xp_as_detail li, .win7_as_detail li, .and_down_detail li, .apple_down_detail li {
+    list-style-type: disc;
+    margin-left: 25px;
+    font: normal 12px/1.8em "Î¢ÈíÑÅºÚ";
+}
+.xp_down, .win7_down, .win8_down, .xp_as_down, .win7_as_down, .apple_down, .and_down {
+    height: 30px;
+    margin-left: 55px;
+}
+.xp_down a, .win7_down a, .win8_down a, .xp_as_down a, .win7_as_down a, .apple_down a, .and_down a {
+    line-height: 20px;
+    padding: 5px 0;
+    display: block;
+    font: normal 15px  "Î¢ÈíÑÅºÚ";
+    color: mediumvioletred;
+}

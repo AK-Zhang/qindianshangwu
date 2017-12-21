@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/index.css">
+	<script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script>
+	<script src="./js/active.js"></script>
+</head>
+<body>
+	<div class="layer">
+			<!-- 公共顶部导航 -->
+			<header class="header">
+				<nav class="nav">
+					<div class="logo"><img src="./imgs/logo.png" alt=""></div>
+					<ul id="ulNav">
+						<li class="active"><a href="javascript:;" class="active">首页</a></li>
+						<li><a href="./wqkh.html">网签开户</a></li>
+						<li><a href="./operatSuggest.html">操作建议</a></li>
+						<li><a href="./sd.html">软件下载</a></li>
+					</ul>
+				</nav>
+			</header>
+		<!-- 轮播图 -->
+		<div class="banner">
+			<!--<div class="ban1"></div>-->
+			<!--<div class="ban2"></div>-->
+			<!--<div class="ban3"></div>-->
+			<div id="box"></div>
+			<div class="desc">
+				<h1>IFCISP国际期货渠道综合服务商</h1>
+				<h2>INTERNATIONAL FUTURES CHANNEL INTEGRATED SERVICE PROVIDER</h2>
+				<h3>www.ifcisp.com</h3>
+				<a href="./operatSuggest.html">了解更多</a>
+			</div>
+			<div class="marked">
+				<ul>
+					<li>
+						<div class="box_l"></div>
+						<h3>国际期货交易系统</h3>
+						<p>银联金控，自动出入金，资金安全，结算快捷；跟单系统，后台推荐排行，让高手带你盈利；优化交易界面，实现一机多户，操作更流程更便捷；交易窗缩放自如，前段置顶，不会覆盖，绝佳交易体验。</p>
+					</li>
+					<li>
+						<div class="box_r"></div>
+						<h3>国际期货交易品种</h3>
+						<p>HKEX香港交易所：恒指、小恒指；NYMEX/COMEX：美原油、美黄金、纽约银、纽约铜；EUREX欧洲期货交易所：德指</p>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<!--软件下载-->
+		<div class="soft_download  clearfix">
+			<div class="download_top">
+				<img src="./imgs/index_d.gif" alt="">
+			</div>
+			<div class="download_cate">
+				<ul>
+					<li><a href="./sd.html">国际期货交易系统</a></li>
+					<li><a href="./sd.html">国际期货交易系统(苹果手机端)</a></li>
+					<li><a href="./sd.html">国际期货交易(安卓手机端)</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--公共底部-->
+
+		<footer class="footer">
+			<div class="statement"></div>
+			<h3>国际期货软件是专注为期货公司打造用来管理客户资金、控制客户交易风险的投资管理工具</h3>
+			<p>注：国际期货软件是专业承载国际品种的软件系统，并不直接参与交易业务。
+				行情数据及交易通道均由系统运营方提供。
+			</p>
+			<p>只有从本网站下载的软件才是正版国际期货软件，从其他途径获得的软件均与国际期货无关。</p>
+			<div class="footer_bottom">
+				<span>Copy &reg; 2002-2017 秦典商务</span>
+			</div>
+		</footer>
+
+	</div>
+</body>
+<script src="./js/picMove.js"></script>
+<script>
+    $(document).ready(function () {
+        var list = [{
+            imgUrl: './imgs/ban1.jpg',
+            href: '#'
+        }, {
+            imgUrl: './imgs/ban2.jpg',
+            href: '#'
+        }, {
+            imgUrl: './imgs/ban3.jpg',
+            href: '#'
+        }, {
+            imgUrl: './imgs/ban4.jpg',
+            href: '#'
+        }]
+
+        $('#box').fade({
+            url: list,
+            boxWid:'100%',
+            boxHei:920
+        }).css({
+            margin:'0 auto'
+        })
+    })
+</script>
+<script src="./js/active.js"></script>
+
+</html>
